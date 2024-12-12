@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Explore Unique Tastes</title>
+    <link rel="icon" href="img/Logo.png" type="image/png">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body id="home-page">
+    <div class="content">
+        <header>
+            <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+                <div class="container">
+                    <a class="navbar-brand fw-bold" href="#">
+                        <img src="img/Logo.png" alt="Logo" class="me-2" style="width: 40px;"> Explore Unique Tastes
+                    </a>
+               
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                      <li class="nav-item">
+                        <a class="nav-link " href="index.html" aria-current="page" href="#">Home</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="viand.html">Viand</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="Desserts.html">Desserts</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="about.html">About</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                      </li>
+                    </ul>
+                    <form class="d-flex">
+                      <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                      <button class="btn btn-outline-success" type="submit">Search</button>
+                    </form>
+                  </div>
+                </div>
+            </nav>
+    </header>
+    <main>
+        <section class="grid">
+  
+            <div class="grid-item">
+                <img src="img/viand/adobo.jpg" alt="Adobo">
+                <h3>Adobo</h3>
+                <button class="button" onclick="toggleRecipe('adobo')">See Full Recipe</button>
+                <div id="adobo" class="recipe-details">
+                    <h3>Ingredients</h3>
+                    <ul>
+                        <li>Chicken </li>
+                        <li>Soy Sauce</li>
+                        <li>Garlic</li>
+                        <li>Vinegar</li>
+                        <li>Bay Leaves</li>
+                        <li>Black Pepper</li>
+                    </ul>
+                    <h3>Steps</h3>
+                    <ol>
+                        <li>Marinate the meat in soy sauce, garlic, and vinegar for at least an hour.</li>
+                        <li>Heat oil in a pot and sauté garlic until fragrant.</li>
+                        <li>Add the marinated meat and brown it on all sides.</li>
+                        <li>Pour in water, add bay leaves and black pepper, and let it simmer until tender.</li>
+                        <li>Reduce the sauce to your desired consistency, then serve with rice.</li>
+                    </ol>
+                </div>
+            </div>
+
+            <div class="grid-item">
+                <img src="img/viand/sinigang.jpg" alt="Sinigang">
+                <h3>Sinigang</h3>
+                <button class="button" onclick="toggleRecipe('sinigang')">See Full Recipe</button>
+                <div id="sinigang" class="recipe-details">
+                    <h3>Ingredients</h3>
+                    <ul>
+                        <li>Bangus (Fish)</li>
+                        <li>Long green pepper siling pansigang</li>
+                        <li>Tomatoes</li>
+                        <li>Onions</li>
+                        <li>Kangkong</li>
+                    </ul>
+                    <h3>Steps</h3>
+                    <ol>
+                        <li>Boil fish in water with tomatoes for flavor.</li>
+                        <li>Once the fish is tender, add onions and other vegetables.</li>
+                        <li>Let the vegetables cook until tender, then serve the soup hot.</li>
+                    </ol>
+                </div>
+            </div>
+
+            <div class="grid-item">
+                <img src="img/viand/kare-kare.jpg" alt="Kare-Kare">
+                <h3>Kare-Kare</h3>
+                <button class="button" onclick="toggleRecipe('kare-kare')">See Full Recipe</button>
+                <div id="kare-kare" class="recipe-details">
+                    <h3>Ingredients</h3>
+                    <ul>
+                        <li>Oxtail</li>
+                        <li>Peanut Butter</li>
+                        <li>Chinese Cabbage (Pechay)</li>
+                        <li>String Beans</li>
+                        <li>Peanut Sauce</li>
+                    </ul>
+                    <h3>Steps</h3>
+                    <ol>
+                        <li>Boil oxtail until tender.</li>
+                        <li>Prepare peanut sauce and add it to the boiled oxtail.</li>
+                        <li>Add pechay, and string beans, then simmer until cooked.</li>
+                        <li>Serve with bagoong (fermented shrimp paste) on the side.</li>
+                    </ol>
+                </div>
+            </div>
+
+            <div class="grid-item">
+                <img src="img/viand/tinola.jpg" alt="Tinola">
+                <h3>Tinola</h3>
+                <button class="button" onclick="toggleRecipe('tinola')">See Full Recipe</button>
+                <div id="tinola" class="recipe-details">
+                    <h3>Ingredients</h3>
+                    <ul>
+                        <li>Chicken</li>
+                        <li>Chayote</li>
+                        <li>Chinese Cabbage (Pechay)</li>
+                    </ul>
+                    <h3>Steps</h3>
+                    <ol>
+                        <li>Add chicken and cook until browned.</li>
+                        <li>Add water and chayote, then simmer until chicken is cooked.</li>
+                        <li>Finish with pechay and serve hot.</li>
+                    </ol>
+                </div>
+            </div>
+        
+            <div class="grid-item">
+                <img src="img/viand/Tortang-Talong.jpg" alt="Tortang Talong">
+                <h3>Tortang Talong</h3>
+                <button class="button" onclick="toggleRecipe('Tortang Talong')">See Full Recipe</button>
+                <div id="Tortang Talong" class="recipe-details">
+                    <h3>Ingredients</h3>
+                    <ul>
+                        <li>Eggplant</li>
+                        <li>Egg</li>
+                        <li>Salt</li>
+                    </ul>
+                    <h3>Steps</h3>
+                    <ol>
+                        <li>Roast the Eggplant</li>
+                        <li>Prepare the Eggplant</li>
+                        <li>Flatten the peeled eggplant with a fork and set aside.</li>
+                        <li>Mix the Egg</li>
+                        <li>Dip and Fry</li>
+                    </ol>
+                </div>
+            </div>
+
+            <div class="grid-item">
+                <img src="img/viand/Pinakbet.jpg" alt="Adobo">
+                <h3>Pinakbet</h3>
+                <button class="button" onclick="toggleRecipe('Pinakbet')">See Full Recipe</button>
+                <div id="Pinakbet" class="recipe-details">
+                    <h3>Ingredients</h3>
+                    <ul>
+                        <li>Shrimp </li>
+                        <li>Onion, Garlic</li>
+                        <li>Eggplant</li>
+                        <li>Okra</li>
+                        <li>Squash</li>
+                        <li>Ampalaya</li>
+                    </ul>
+                    <h3>Steps</h3>
+                    <ol>
+                        <li>In a pan, saute onion and garlic over medium heat until tender.</li>
+                        <li>Add the shrimp paste and continue to cook for about 2 minutes.</li>
+                        <li>Add tomatoes and cook for about 5 minutes or until softened.</li>
+                        <li> Add water and bring to a boil.</li>
+                        <li> Add more water in ½ cup increments as needed to maintain about 1 cup of liquid.</li>
+                        <li>Add squash and cook for 4 minutes.</li>
+                        <li>Add the shrimp paste and continue to cook for about 2 minutes.</li>
+                        <li>Add okra, long beans, Ampalaya, and Eggplant.</li>
+                        <li>Continue to cook for about 4 to 5 minutes or until vegetables are tender yet crisp.</li>
+                    </ol>
+                </div>
+            </div>
+
+            <div class="grid-item">
+                <img src="img/viand/Pansit Bihon.jpg" alt="Pansit Bihon">
+                <h3>Pansit Bihon</h3>
+                <button class="button" onclick="toggleRecipe('Pansit Bihon')">See Full Recipe</button>
+                <div id="Pansit Bihon" class="recipe-details">
+                    <h3>Ingredients</h3>
+                    <ul>
+                        <li>Pancit Bihon</li>
+                        <li>Pork</li>
+                        <li>Carrot, Peas</li>
+                        <li>Cabbage </li>
+                        <li>Onion, Garlic</li>
+                    </ul>
+                    <h3>Steps</h3>
+                    <ol>
+                        <li>Prepare the bihon and sauté aromatics</li>
+                        <li>Cook the sliced meat</li>
+                        <li>Season and simmer</li>
+                        <li>Blanch vegetables</li>
+                        <li>Add soy sauce and bihon</li>
+                    </ol>
+                </div>
+            </div>
+
+            <div class="grid-item">
+                <img src="img/viand/Sisig.jpg" alt="Sisig">
+                <h3>Sisig</h3>
+                <button class="button" onclick="toggleRecipe('Sisig')">See Full Recipe</button>
+                <div id="Sisig" class="recipe-details">
+                    <h3>Ingredients</h3>
+                    <ul>
+                        <li>Meat</li>
+                        <li>Onion, Garlic</li>
+                        <li>Pork Belly</li>
+                        <li>Lady’s Choice Mayonnaise</li>
+                        <li>Chili Flakes</li>
+                    </ul>
+                    <h3>Steps</h3>
+                    <ol>
+                        <li>Boiling the meat</li>
+                        <li> Grilling the pig parts</li>
+                        <li>Preparing the sisig dressing</li>
+                        <li>Tossing the meat and dressing together</li>
+                    </ol>
+                </div>
+            </div>
+
+            <div class="grid-item">
+                <img src="img/viand/Igado.jpg" alt="Igado">
+                <h3>Igado</h3>
+                <button class="button" onclick="toggleRecipe('Igado')">See Full Recipe</button>
+                <div id="Igado" class="recipe-details">
+                    <h3>Ingredients</h3>
+                    <ul>
+                        <li>Onion, Garlic</li>
+                        <li>Bell Peppers</li>
+                        <li>Tomatoes</li>
+                    </ul>
+                    <h3>Steps</h3>
+                    <ol>
+                        <li>Saute onions, bell peppers, potatoes and garlic in oil.</li>
+                        <li>Add tomatoes and pork strips, and stir fry until pork is light brown.</li>
+                        <li>Add in the liver and pour in the vinegar, soy sauce and the sugar. Season with salt and pepper.</li>
+                        <li>Simmer until the meat is cooked.</li>
+                        <li>Serve with steamed rice.</li>
+                    </ol>
+                </div>
+            </div>
+
+        </section>
+        
+    </main>
+    <footer>
+        <p>&copy; 2024 Delicious Recipes</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

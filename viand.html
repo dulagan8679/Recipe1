@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Explore Unique Tastes</title>
+    <link rel="icon" href="img/Logo.png" type="image/png">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body id="home-page">
+    <div class="content">
+        <header>
+            <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+                <div class="container">
+                    <a class="navbar-brand fw-bold" href="#">
+                        <img src="img/Logo.png" alt="Logo" class="me-2" style="width: 40px;"> Explore Unique Tastes
+                    </a>
+               
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                      <li class="nav-item">
+                        <a class="nav-link " href="index.html" aria-current="page" href="#">Home</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="viand.html">Viand</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="Desserts.html">Desserts</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="about.html">About</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                      </li>
+                    </ul>
+                    <form class="d-flex">
+                      <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                      <button class="btn btn-outline-success" type="submit">Search</button>
+                    </form>
+                  </div>
+                </div>
+            </nav>
+    </header>
+    <main>
+        <section class="grid">
+                <!-- Sinigang -->
+                <div class="grid-item">
+                    <img src="img/viand/sinigang.jpg" alt="Sinigang">
+                    <h3>Sinigang</h3>
+                    <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#sinigangModal">See Full Recipe</button>
+                </div>
+            
+                <div class="modal fade" id="sinigangModal" tabindex="-1" aria-labelledby="sinigangLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="sinigangLabel">Sinigang Recipe</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <h3>Ingredients</h3>
+                                <ul>
+                                    <li>Bangus (Fish)</li>
+                                    <li>Long green pepper</li>
+                                    <li>Tomatoes</li>
+                                    <li>Onions</li>
+                                    <li>Kangkong (Water Spinach)</li>
+                                </ul>
+                                <h3>Steps</h3>
+                                <ol>
+                                    <li>Boil fish in water with tomatoes for flavor.</li>
+                                    <li>Once the fish is tender, add onions and other vegetables.</li>
+                                    <li>Let the vegetables cook until tender, then serve the soup hot.</li>
+                                </ol>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            
+                <!-- Kare-Kare -->
+                <div class="grid-item">
+                    <img src="img/viand/kare-kare.jpg" alt="Kare-Kare">
+                    <h3>Kare-Kare</h3>
+                    <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#kareKareModal">See Full Recipe</button>
+                </div>
+            
+                <div class="modal fade" id="kareKareModal" tabindex="-1" aria-labelledby="kareKareLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="kareKareLabel">Kare-Kare Recipe</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <h3>Ingredients</h3>
+                                <ul>
+                                    <li>Oxtail</li>
+                                    <li>Peanut Butter</li>
+                                    <li>Chinese Cabbage (Pechay)</li>
+                                    <li>String Beans</li>
+                                    <li>Peanut Sauce</li>
+                                </ul>
+                                <h3>Steps</h3>
+                                <ol>
+                                    <li>Boil oxtail until tender.</li>
+                                    <li>Prepare peanut sauce and add it to the boiled oxtail.</li>
+                                    <li>Add pechay and string beans, then simmer until cooked.</li>
+                                    <li>Serve with bagoong (fermented shrimp paste) on the side.</li>
+                                </ol>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            
+                <!-- Tinola -->
+                <div class="grid-item">
+                    <img src="img/viand/tinola.jpg" alt="Tinola">
+                    <h3>Tinola</h3>
+                    <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#tinolaModal">See Full Recipe</button>
+                </div>
+            
+                <div class="modal fade" id="tinolaModal" tabindex="-1" aria-labelledby="tinolaLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="tinolaLabel">Tinola Recipe</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <h3>Ingredients</h3>
+                                <ul>
+                                    <li>Chicken</li>
+                                    <li>Chayote</li>
+                                    <li>Chinese Cabbage (Pechay)</li>
+                                </ul>
+                                <h3>Steps</h3>
+                                <ol>
+                                    <li>Brown chicken in oil.</li>
+                                    <li>Add water and chayote, then simmer until chicken is cooked.</li>
+                                    <li>Add pechay, cook for a few more minutes, and serve hot.</li>
+                                </ol>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            
+
+                <!-- Pinakbet Example -->
+                <div class="grid-item">
+                    <img src="img/viand/Pinakbet.jpg" alt="Pinakbet">
+                    <h3>Pinakbet</h3>
+                    <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#pinakbetModal">See Full Recipe</button>
+                </div>
+            
+                <div class="modal fade" id="pinakbetModal" tabindex="-1" aria-labelledby="pinakbetLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="pinakbetLabel">Pinakbet Recipe</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <h3>Ingredients</h3>
+                                <ul>
+                                    <li>Shrimp</li>
+                                    <li>Onion, Garlic</li>
+                                    <li>Eggplant</li>
+                                    <li>Okra</li>
+                                    <li>Squash</li>
+                                    <li>Ampalaya</li>
+                                </ul>
+                                <h3>Steps</h3>
+                                <ol>
+                                    <li>Sauté onions and garlic in oil.</li>
+                                    <li>Add shrimp paste and cook for a few minutes.</li>
+                                    <li>Add tomatoes, water, and vegetables.</li>
+                                    <li>Simmer until vegetables are tender yet crisp. Serve.</li>
+                                </ol>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                 <!-- Tortang Talong-->
+                <div class="grid-item">
+                    <img src="img/viand/Tortang-Talong.jpg" alt="Pinakbet">
+                    <h3>Tortang Talong</h3>
+                    <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#pinakbetModal">See Full Recipe</button>
+                </div>
+            
+                <div class="modal fade" id="pinakbetModal" tabindex="-1" aria-labelledby="pinakbetLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="TortangTalongLabel">Tortang Talong Recipe Recipe</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="model-content">
+                                <h3>Ingredients</h3>
+                    <ul>
+                        <li>Eggplant</li>
+                        <li>Egg</li>
+                        <li>Salt</li>
+                    </ul>
+                    <h3>Steps</h3>
+                    <ol>
+                        <li>Roast the Eggplant</li>
+                        <li>Prepare the Eggplant</li>
+                        <li>Flatten the peeled eggplant with a fork and set aside.</li>
+                        <li>Mix the Egg</li>
+                        <li>Dip and Fry</li>
+                    </ol>
+
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+               
+
+                <!--Beef Giniling-->
+                <div class="grid-item">
+                    <img src="img/viand/maryane.jpg" >
+                    <h3>Beef Giniling</h3>
+                    <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#BeefGinilingModal">See Full Recipe</button>
+                </div>
+            
+                <div class="modal fade" id="pinakbetModal" tabindex="-1" aria-labelledby="#BeefGinilingModal" aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="pinakbetLabel">Beef Giniling Recipe</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>  
+                            <div class="model-content">
+                                <h3>Ingredients</h3>
+                                    <li>1 tbsp tomato paste</li>
+                                    <li>1 pc Knorr Beef Cube</li>
+                                   <li> 1 pc potato, small dice</li>
+                                   <li>1 pc carot, small   dice    </li> 
+                                    <li>¼ cup water</li>
+                                    <li></li>6 pcs quail eggs</li>
+                            </div>
+
+                         
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>  
+
+
+            
+        </section>
+        
+    </main>
+    <footer>
+        <p>&copy; 2024 Delicious Recipes</p>
+    </footer>   
+    <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

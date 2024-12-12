@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Explore Unique Tastes</title>
+    <link rel="icon" href="img/Logo.png" type="image/png">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<header>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container">
+          <a class="navbar-brand fw-bold" href="#">
+              <img src="img/Logo.png" alt="Logo" class="me-2" style="width: 40px;"> Explore Unique Tastes
+          </a>
+     
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link " href="index.html" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="viand.html">Viand</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="Desserts.html">Desserts</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="contact.html">Contact</a>
+            </li>
+          </ul>
+          <form class="d-flex">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">Search</button>
+          </form>
+        </div>
+      </div>
+  </nav>
+</header>
+
+<section class="contact">
+  <div class="container">
+    <!-- Contact Info Section -->
+    <div class="info-wrap">
+      <div class="info-item">
+        <i class="bi bi-geo-alt"></i>
+        <div>
+          <h3>Address</h3>
+          <p> Mountain Province</p>
+        </div>
+      </div>
+      <div class="info-item">
+        <i class="bi bi-telephone"></i>
+        <div>
+          <h3>Call Me</h3>
+          <p>+63931231233</p>
+          <p>+63942343444</p>
+        </div>
+      </div>
+      <div class="info-item">
+        <i class="bi bi-envelope"></i>
+        <div>
+          <h3>Send Me an Email</h3>
+          <p>exploreuniquetaste@gmail.com</p>
+        </div>
+      </div>
+      <iframe src="https://www.google.com/maps/embed?pb=..." width="100%" height="250" style="border:0;"></iframe>
+    </div>
+
+    <!-- Contact Form Section -->
+    <div class="container-form">
+      <form action="forms/contact.php" method="post" class="php-email-form">
+        <div class="row">
+          <div class="col-md-6">
+            <label for="name-field">Your Name</label>
+            <input type="text" name="name" id="name-field" placeholder="Your Name" required>
+          </div>
+          <div class="col-md-6">
+            <label for="email-field">Your Email</label>
+            <input type="email" name="email" id="email-field" placeholder="Your Email" required>
+          </div>
+          <div class="col-md-12">
+            <label for="subject-field">Subject</label>
+            <input type="text" name="subject" id="subject-field" placeholder="Subject" required>
+          </div>
+          <div class="col-md-12">
+            <label for="message-field">Message</label>
+            <textarea name="message" id="message-field" rows="5" placeholder="Your Message" required></textarea>
+          </div>
+          <div class="col-md-12 text-center">
+            <button type="submit">Send Message</button>
+          </div>
+        </div>
+      </form>
+    </div>
+  </div>
+</section>
+
+
+    
+</body>
+<footer>
+    <p>&copy; 2024 Explore Unique Tastes</p>
+</footer>
+</html>
